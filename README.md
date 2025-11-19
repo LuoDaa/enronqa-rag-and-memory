@@ -8,8 +8,8 @@
 - 对论文的中文详细解读
 - （计划中）基于 EnronQA 的 RAG / LoRA 实验代码和示例
 
-## 使用方式（Quickstart）
 
+#使用方法
 ```bash
 git clone https://github.com/LuoDaa/enronqa-rag-and-memory.git
 cd enronqa-rag-and-memory
