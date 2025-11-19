@@ -10,7 +10,9 @@
 
 ## 使用方式（Quickstart）
 #bash
+
 git clone https://github.com/LuoDaa/enronqa-rag-and-memory.git
+
 cd enronqa-rag-and-memory
 
 pip install -r requirements.txt
