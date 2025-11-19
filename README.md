@@ -1,5 +1,6 @@
 # EnronQA：在私人文档上实现个性化 RAG 的基准解读
 
+> 🇨🇳 中文版 / [🇬🇧 English version](./README_EN.md)
 > 论文：**EnronQA: Towards Personalized RAG over Private Documents**（arXiv:2505.00263）  
 > 原文链接：https://arxiv.org/abs/2505.00263
 
