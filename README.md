@@ -1,6 +1,27 @@
 # EnronQA：在私人文档上实现个性化 RAG 的基准解读
 
-> 论文：**EnronQA: Towards Personalized RAG over Private Documents**（arXiv:2505.00263）
+> 论文：**EnronQA: Towards Personalized RAG over Private Documents**（arXiv:2505.00263）  
+> 原文链接：https://arxiv.org/abs/2505.00263
+
+本仓库包含：
+- 对论文的中文详细解读
+- （计划中）基于 EnronQA 的 RAG / LoRA 实验代码和示例
+
+## 目录
+
+- [0. TL;DR](#0-tldr)
+- [1. 背景：为什么需要新的 RAG 基准？](#1-背景为什么需要新的-rag-基准)
+- [2. EnronQA 是什么？](#2-enronqa-是什么)
+- [3. 数据集是怎么构建的？](#3-数据集是怎么构建的)
+- [4. 实验一：RAG 校准](#4-实验一rag-校准-enronqa-vs-nq-vs-triviaqa)
+- [5. 实验二：RAG Pipeline 基线](#5-实验二rag-pipeline-基线)
+- [6. 实验三：记忆-vs-检索](#6-实验三记忆-vs-检索--long-contextrag-与-lora)
+- [7. 对工程实践的启发](#7-对工程实践的启发主观总结)
+- [8. 如何在自己的项目中使用 EnronQA？](#8-如何在自己的项目中使用-enronqa)
+- [9. 总结](#9-总结一句话)
+
+
+
 
 ## 0. TL;DR
 
@@ -383,4 +404,17 @@
 > **EnronQA 提供了一个基于真实邮件、面向私有文档和个性化 RAG 的大规模基准，证明了在未被模型预训练污染的数据上，RAG 的性能确实高度依赖检索质量；同时，通过 Long Context / RAG / LoRA 的对比，论文给出了“检索 vs 记忆”的一组有价值的起始实验。**
 
 ---
+
+---
+
+## 贡献 / Feedback
+
+欢迎提 issue 讨论这篇论文的更多细节，也欢迎 PR：
+
+- 补充或纠正本文中的解读
+- 增加基于 EnronQA 的检索 / LoRA / 长上下文实验代码
+- 添加英文版解读
+
+如果你觉得这个仓库对你有帮助，也欢迎点一下 ⭐。
+
 
