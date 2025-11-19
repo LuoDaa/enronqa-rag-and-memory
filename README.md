@@ -8,6 +8,22 @@
 - 对论文的中文详细解读
 - （计划中）基于 EnronQA 的 RAG / LoRA 实验代码和示例
 
+## 使用方式（Quickstart）
+
+```bash
+git clone https://github.com/LuoDaa/enronqa-rag-and-memory.git
+cd enronqa-rag-and-memory
+
+pip install -r requirements.txt
+
+# 可选：安装 openai，并配置 API key
+pip install openai
+export OPENAI_API_KEY=你的key
+
+# 跑 BM25 + LLM demo
+python -m src.enronqa.bm25_rag
+
+
 ## 目录
 
 - [0. TL;DR](#0-tldr)
