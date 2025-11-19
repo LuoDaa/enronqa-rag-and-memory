@@ -9,7 +9,7 @@
 - （计划中）基于 EnronQA 的 RAG / LoRA 实验代码和示例
 
 ## 使用方式（Quickstart）
-'''bash'''
+#bash
 git clone https://github.com/LuoDaa/enronqa-rag-and-memory.git
 cd enronqa-rag-and-memory
 
