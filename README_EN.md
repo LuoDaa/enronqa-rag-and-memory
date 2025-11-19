@@ -7,6 +7,47 @@
 
 ---
 
+
+## Quickstart
+#bash
+git clone https://github.com/LuoDaa/enronqa-rag-and-memory.git
+
+cd enronqa-rag-and-memory
+
+pip install -r requirements.txt
+
+# optional: install openai and set API key
+pip install openai
+export OPENAI_API_KEY=your_key_here
+
+# run BM25 + LLM demo
+python -m src.enronqa.bm25_rag
+
+## Table of Contents
+
+- [0. TL;DR](#0-tldr)
+- [1. Background: Why a New RAG Benchmark?](#1-background-why-a-new-rag-benchmark)
+- [2. What Is EnronQA?](#2-what-is-enronqa)
+- [3. Dataset Construction](#3-dataset-construction)
+  - [3.1 Email Filtering Pipeline](#31-email-filtering-pipeline)
+  - [3.2 LLM-Based QA Generation Pipeline](#32-llm-based-qa-generation-pipeline)
+- [4. Experiments](#4-experiments)
+  - [4.1 Experiment 1: RAG Calibration](#41-experiment-1-rag-calibration)
+  - [4.2 Experiment 2: RAG Pipeline Baselines](#42-experiment-2-rag-pipeline-baselines)
+  - [4.3 Experiment 3: Memory vs Retrieval](#43-experiment-3-memory-vs-retrieval)
+- [5. Practical Lessons for Engineers](#5-practical-lessons-for-engineers)
+- [6. Repository Code](#6-repository-code)
+  - [6.1 Layout](#61-layout)
+  - [6.2 Install](#62-install)
+  - [6.3 Minimal BM25 RAG Demo](#63-minimal-bm25-rag-demo)
+  - [6.4 LoRA Memorization Demo](#64-lora-memorization-demo)
+- [7. Quickstart](#7-quickstart)
+- [8. Contributing / Feedback](#8-contributing--feedback)
+- [9. License](#9-license)
+
+
+
+
 ## 0. TL;DR
 
 - Most RAG benchmarks are built on **Wikipedia / public web data**.  
