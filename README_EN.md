@@ -1,5 +1,6 @@
 # EnronQA: Notes on Personalized RAG over Private Documents
 
+> [🇨🇳 Chinese version](./README.md) / 🇬🇧 English version
 > Unofficial reading notes and (planned) experiments for  
 > **“EnronQA: Towards Personalized RAG over Private Documents”**  
 > arXiv: [2505.00263](https://arxiv.org/abs/2505.00263)
